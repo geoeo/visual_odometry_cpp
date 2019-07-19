@@ -57,8 +57,8 @@ int files(){
     auto depth_folder_path = depth_ss.str();
 
     try {
-        //auto files = IO::get_file_list_in_dir(intenstiy_folder_path);
-        auto res = IO::generate_runtime_intensity_depth_lists(intenstiy_folder_path, depth_folder_path, "1305031526.671473", ".png", 1, 2, 0.3);
+        //auto files = IO::get_file_list_in_dir(intenstiy_folder_path, "png");
+        auto res = IO::generate_runtime_intensity_depth_lists(intenstiy_folder_path, depth_folder_path, "1305031526.671473", "png", 1, 2, 0.03);
 
         return EXIT_SUCCESS;
     }
