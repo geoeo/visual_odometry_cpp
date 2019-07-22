@@ -30,7 +30,7 @@ include_directories("~/Workspace/C++/ImageLib/include")
 include_directories("~/Workspace/C++/ImageLib/inline")
 link_directories("~/Workspace/C++/ImageLib/cmake-build-debug")
 
-add_executable(visual_odometry main.cpp include/io.h src/io.cpp)
+add_executable(visual_odometry main.cpp include/io.h src/io.cpp include/layer.h include/frame.h src/frame.cpp)
 
 target_link_libraries(visual_odometry ${llvm_libs})
 target_link_libraries(visual_odometry Eigen3::Eigen)

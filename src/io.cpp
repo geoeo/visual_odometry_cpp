@@ -77,7 +77,6 @@ IO::loaded_images IO::generate_runtime_intensity_depth_lists(string_view intensi
         result.depth_timestamps.emplace_back(depth_ts);
     }
 
-
     return result;
 }
 

@@ -5,6 +5,7 @@
 #include "image.h"
 #include "io.h"
 #include "CImg.h"
+#include "layer.h"
 
 using namespace cimg_library;
 
@@ -70,7 +71,7 @@ int files(){
 }
 
 int main() {
-    return files();
-    //return image();
+    //return files();
+    return image();
 }
 
