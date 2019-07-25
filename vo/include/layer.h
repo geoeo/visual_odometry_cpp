@@ -22,11 +22,8 @@ namespace layer {
         int y;
     };
 
-    CImg<image_data> blur_downsample(const CImg<image_data>& prev, uint8_t layer, float sigma);
     Layer from_image(const CImg<image_data>& image, uint8_t layer, bool standardize, ImageFilter filter_x, ImageFilter filter_y);
     Depth_Coordiantes generate_depth_coordinates(uint8_t layer_index, int x, int y);
-
-
 }
 
 

@@ -6,16 +6,6 @@
 
 
 
-CImg<image_data> layer::blur_downsample(const CImg<image_data>& prev, uint8_t layer, float sigma) {
-
-    auto img = prev; //TODO: blur
-
-    //TODO: maybe put this in imageLib
-
-    return img;
-
-}
-
 layer::Layer layer::from_image(const CImg<image_data>& c_image, uint8_t layer, bool standardize, ImageFilter filter_x,
                                ImageFilter filter_y) {
 

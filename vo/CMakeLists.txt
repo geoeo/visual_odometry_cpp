@@ -3,7 +3,6 @@ project(visual_odometry)
 
 set(CMAKE_CXX_STANDARD 17)
 
-
 # all dependecies of ImageLib have to be set here as well
 find_package (Eigen3 3.3 REQUIRED NO_MODULE)
 
